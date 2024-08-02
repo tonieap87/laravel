@@ -6,3 +6,6 @@ and you should modify config.app.php after you already install this package (so 
 open the config/app.php file. Add this to the $providers array.
 
 "Intervention\Image\ImageServiceProvider::class"
+
+
+https://www.youtube.com/watch?v=eH-FXCw_Nc0
