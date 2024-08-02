@@ -1,0 +1,8 @@
+Laravel Error : Intervention\Image\Facades\Image
+You need to first run:
+"composer require intervention/image"
+and you should modify config.app.php after you already install this package (so after composer require) and not before.
+
+open the config/app.php file. Add this to the $providers array.
+
+"Intervention\Image\ImageServiceProvider::class"
